@@ -73,13 +73,13 @@ The assistant responds based on real-time data.
 
  8. System Workflow
 
-1. User registers and selects a weekly plan
-2. System monitors weather data
-3. Disruption is detected
-4. Condition is checked
-5. Claim is automatically created
-6. System validates the event
-7. Payout is processed instantly
+* User registers and selects a weekly plan
+* System monitors weather data
+* Disruption is detected
+* Condition is checked
+* Claim is automatically created
+* System validates the event
+* Payout is processed instantly
 
 
 
