@@ -1,4 +1,4 @@
-********************************* TITLE *********************************
+
 Assured Delivery: Real-Time Income Protection for Amazon Delivery Partners
 
 1. Introduction:
