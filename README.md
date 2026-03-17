@@ -19,57 +19,35 @@ The system monitors real-world conditions like weather in real time. When a disr
  4. Target Users (Persona)
 
 The target users are Amazon delivery partners working in urban areas.
-
 These workers:
-
 * Depend on daily earnings
 * Spend most of their time outdoors
 * Are directly affected by environmental conditions
 * Need a simple and quick support system
 
-
  5. Disruption Triggers
 
-We use predefined conditions to decide when a payout should be given.
-
+ We use predefined conditions to decide when a payout should be given.
 * Rainfall > 60mm → ₹300
 * AQI > 400 → ₹200
 * Flood alert → ₹500
 
-We mainly focus on environmental conditions because they have the most direct and unavoidable impact on delivery work.
-
-
  6. Data Approach
 
-In this project, we are not using any pre-collected dataset or trained machine learning models. Instead, the system works completely on real-time data and simple logic.
-
-Since this is a parametric insurance system, the goal is not to analyze past data but to detect real-world events as they happen.
-
-We use live APIs (such as weather services) to fetch real-time environmental conditions like rainfall, temperature, and alerts.
-
-While factors like traffic can also affect delivery efficiency, we mainly focus on environmental disruptions such as heavy rain, floods, and pollution.
-
+In this project, we are not using any pre-collected dataset or trained machine learning models. Instead, the system works completely on real-time data and simple logic.Since this is a parametric insurance system, the goal is not to analyze past data but to detect real-world events as they happen.We use live APIs (such as weather services) to fetch real-time environmental conditions like rainfall, temperature, and alerts.While factors like traffic can also affect delivery efficiency, we mainly focus on environmental disruptions such as heavy rain, floods, and pollution.
 To improve reliability, we include:
-
 * Location validation
 * Time matching
 * Threshold buffers
 
-
-
  7. AI Assistant
-
+ 
 We include a simple assistant to help users understand their policy.
-
 Users can ask:
-
 * “Will I get payout today?”
 * “Why didn’t I receive money?”
 * “What is my coverage?”
-
 The assistant responds based on real-time data.
-
-
 
  8. System Workflow
 
@@ -81,8 +59,6 @@ The assistant responds based on real-time data.
 * System validates the event
 * Payout is processed instantly
 
-
-
  9. Tech Stack
 
 * Frontend: React / HTML / CSS
@@ -91,15 +67,12 @@ The assistant responds based on real-time data.
 * APIs: Weather API
 * Payment: Razorpay (test mode)
 
-
-
  10. Future Improvements
 
 * Better prediction of disruptions
 * Integration with real delivery systems
 * Personalized plans
 * Expansion to other platforms
-
 
  11. Conclusion
 
